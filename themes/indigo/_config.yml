@@ -114,11 +114,12 @@ gitment: false
 #   client_secret:
 
 # use gitalk://github.com/gitalk/gitalk
-gitalk: false
-#  owner: 
-#  repo: 
-#  client_id: 
-#  client_secret: 
+gitalk: 
+  owner: bearhuang-omg
+  admin: bearhuang-omg
+  repo: bearhuang-omg.github.io
+  client_id: 76259a53884aa434eb09
+  client_secret: 5819f21e37cdfd7eeec03e9f3bf664141b2b25c1
 
 # Valine Comment system. https://valine.js.org
 valine:
