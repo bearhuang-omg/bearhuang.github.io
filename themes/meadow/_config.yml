@@ -19,8 +19,8 @@ search:
 
 # Google Adsense广告代码
 google_adsense:
-  enabled: true #开启广告
-  auto_ad: true #自动广告
+  enabled: false #开启广告
+  auto_ad: false #自动广告
   page_ad: false  #单页启用广告
   pub_id: 
   footer_slot: 
@@ -60,23 +60,19 @@ menu:
   tags: /tags/ || icon-bookmark
   categories: /categories/ || icon-folder
   archives: /archives/ || icon-archive 
-  工具箱: /tools/ || icon-tools
-  about: /about/ || icon-user
   #gallery: /categories/图集/ || icon-gallery
 
 # 社交链接
 social:
-  E-Mail: mailto:xxx@xxx.com || icon-mail
-  GitHub: https://your.url || icon-github
-  Steam: https://your.url || icon-steam
-  Weibo: https://your.url || icon-weibo
+  E-Mail: huangbei1990@live.cn || icon-mail
+  GitHub: https://github.com/bearhuang-omg || icon-github
   # 此外还预置了以下社交图标，可直接仿照格式进行引用，如需其他图标请自行添加图标库或与我联系
   # icon-twitter、icon-facebook、icon-vk、icon-stack-overflow、icon-youtube、icon-Instagram、icon-skype
   # icon-qq、icon-wechat、icon-alipay、icon-paypal、icon-telegram、icon-twitch、icon-discord
 
 #友情链接
 links:
-  Meadow说明文档: https://garybear.cn/hexo-theme-meadow/
+  csdn: https://blog.csdn.net/hbdatouerzi
 ##########
 
 #####页脚#####
@@ -105,12 +101,11 @@ busuanzi:
 comment:
   use: 
     - gitalk
-    - livere
   ## Gitalk
-  gitalk_client_id: 
-  gitalk_client_secret: 
-  gitalk_repo: 
-  gitalk_owner: 
+  gitalk_client_id: 76259a53884aa434eb09
+  gitalk_client_secret: 5819f21e37cdfd7eeec03e9f3bf664141b2b25c1
+  gitalk_repo: bearhuang-omg.github.io
+  gitalk_owner: bearhuang-omg
   gitalk_sid_type:
   gitalk_distractionFreeMode: true
   ## Disqus
